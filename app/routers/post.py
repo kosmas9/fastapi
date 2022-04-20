@@ -11,9 +11,9 @@ router = APIRouter(
     tags=['Posts']
 )
 
-@router.get("/") # this is the root path
-def root():  
-    return{"message":"Hello APP"}
+# @router.get("/") # this is the root path
+# def root():  
+#     return{"message":"Hello APP"}
 
 #routerpp.get("/sqlalchemy")
 # def test_posts(db:Session = Depends(get_db)):
